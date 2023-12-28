@@ -37,7 +37,7 @@ section#telefone {
     width: 311px;
     background: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
-    
+    max-width: 100%;
 }
 
 iframe#tela {
