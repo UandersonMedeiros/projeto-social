@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 * {
     margin: 0px;
@@ -12,15 +12,14 @@ html, body {
     background-color: black;
 }
 
+
 body {
     background-image: url('../imagens/gatinho-filhote.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     
-}
-
-main {
+}main {
     position: relative;
     height: 100vh;
     
@@ -34,5 +33,14 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background: url('../imagens/frame-iphone.png') no-repeat;
+    background: url('../imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
